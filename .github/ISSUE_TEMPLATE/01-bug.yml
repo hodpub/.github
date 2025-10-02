@@ -1,0 +1,99 @@
+name: "\U0001F41B New bug report"
+description: Create a report to help us improve.
+# labels: ["bug"]
+type: ["Bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in the project and taking the time to fill out this bug report!
+  - type: dropdown
+    id: bugType
+    attributes:
+      label: Where is the issue happening?
+      options:
+        - System
+        - Premium Module
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: premiumModule
+    attributes:
+      label: Premium Module
+      description: If the issue is happening on a premium module, inform the module name, please.
+      placeholder: "Core Module"
+    validations:
+      required: false
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
+      placeholder: Clicking on the weapon does not roll the dice...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Please provide a step by step guide to reproducing the issue.
+      placeholder: |
+        1. Open the character sheet
+        2. Go to the weapons' tab
+        3. Click on the weapon link to roll
+    validations:
+      required: true
+  - type: textarea
+    id: expectedBehaviour
+    attributes:
+      label: Expected Behaviour
+      description: Inform what you believe that should be the correct behaviour
+      placeholder: Dice roll with the weapon information
+    validations:
+      required: true
+  - type: textarea
+    id: actualBehaviour
+    attributes:
+      label: Actual Behaviour
+      description: Inform what is happening
+      placeholder: No dice is rolled
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Please, provide the logs to help us to investigate the issue. You can find logs by pressing "f12" or "cmd+shift+i" in the browser-window/Foundry. Please try not to insert an image but copy paste the log text.
+      placeholder: ...
+    validations:
+      required: false
+  - type: textarea
+    id: screeshots
+    attributes:
+      label: Screenshots
+      description: Provide any screenshot that helps to show the issue
+      placeholder: 
+    validations:
+      required: false
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Info
+      description: Go to `Game Settings` > `Support & Issues` > `Support Details`. Click in `Generate Full Report` and then on `Copy Report to Clipboard`. Paste the result here.
+      render: txt
+      placeholder: System, OS, version, etc.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you have done the following when troubleshooting the issue
+      options:
+        - label: Done a clean install of the system.
+          required: true
+        - label: Disabled all modules (unless the issue is on a premium module).
+          required: true
+        - label: Checked if the issue is present in a new world instance (create an empty new world in Foundry using the system).
+          required: true

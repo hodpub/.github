@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Hod Publishing Discord Server
+    url: https://hodpub.com/discord
+    about: "The Hod Publishing Discord Server has channels to talk about all the systems and modules created by us."
+  - name: Foundry Discord Chat
+    url: https://discord.gg/foundryvtt
+    about: "Look for the #free-league channel to find a community dedicated to the Free League games."
+  - name: Questions & Discussions
+    url: https://github.com/orgs/hodpub/discussions
+    about: Use the discussions board if you have ideas, or more complex usage questions.
