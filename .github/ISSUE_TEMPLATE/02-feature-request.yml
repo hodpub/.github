@@ -9,7 +9,7 @@ body:
   - type: dropdown
     id: bugType
     attributes:
-      label: Where is the issue happening?
+      label: Where should the feature be created?
       options:
         - System
         - Premium Module
@@ -20,7 +20,7 @@ body:
     id: premiumModule
     attributes:
       label: Premium Module
-      description: If the issue is happening on a premium module, inform the module name, please.
+      description: If the feature is related to a premium module, inform the module name, please.
       placeholder: "Core Module"
     validations:
       required: false
