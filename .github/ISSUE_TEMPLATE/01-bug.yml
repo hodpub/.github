@@ -1,6 +1,6 @@
-name: "\U0001F41B New bug report"
+name: "🐛 New bug report"
 description: Create a report to help us improve.
-# labels: ["bug"]
+labels: ["requires-investigation"]
 type: "Bug"
 body:
   - type: markdown
