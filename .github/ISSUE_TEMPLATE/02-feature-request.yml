@@ -1,12 +1,29 @@
 name: "✨ New feature request"
 description: Suggest an idea for this project
-# labels: ["feature"]
 type: "Feature"
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for your interest in the project and taking the time to fill out this feature request!
+  - type: dropdown
+    id: bugType
+    attributes:
+      label: Where is the issue happening?
+      options:
+        - System
+        - Premium Module
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: premiumModule
+    attributes:
+      label: Premium Module
+      description: If the issue is happening on a premium module, inform the module name, please.
+      placeholder: "Core Module"
+    validations:
+      required: false
   - type: textarea
     id: feature-description
     attributes:
@@ -39,4 +56,6 @@ body:
       description: Before submitting the issue, please make sure you have done the following when troubleshooting the issue
       options:
         - label: Check that there isn't already an issue that request the same feature to avoid creating a duplicate.
+          required: true
+        - label: 'Not a "How To"-question (You can ask questions here: [Discussions](https://github.com/orgs/hodpub/discussions)).'
           required: true

@@ -95,5 +95,7 @@ body:
           required: true
         - label: Disabled all modules (unless the issue is on a premium module).
           required: true
-        - label: Checked if the issue is present in a new world instance (create an empty new world in Foundry using the system).
+        - label: Checked that the issue is present in a new world instance (create an empty new world in Foundry using the system).
+          required: true
+        - label: 'Not a "How To"-question (You can ask questions here: [Discussions](https://github.com/orgs/hodpub/discussions)).'
           required: true
