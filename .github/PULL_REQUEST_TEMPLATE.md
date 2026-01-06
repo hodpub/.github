@@ -14,6 +14,10 @@ Explain the **details** for making this change. What existing problem does the p
 
 <!-- Example: When "Adding a function to do X", explain why it is necessary to have a way to do X. -->
 
+## AI Usage
+
+As explained on our Contributing Guide, we can't accept code that was created using AI. Please, if you used AI to create it, do not open the PR.
+
 ## Code formatting
 
 Please, reference our Contributing Guide for Commit message format and other important information.
