@@ -1,0 +1,27 @@
+# .github/release-categories.yml
+# This tells GitHub how to group PRs in release notes based on labels.
+
+categories:
+  - title: "✨ Features"
+    labels:
+      - feature
+      - enhancement
+  - title: "🐛 Bug Fixes"
+    labels:
+      - bug
+      - fix
+  - title: "📝 Documentation"
+    labels:
+      - docs
+      - documentation
+  - title: "⚡ Performance"
+    labels:
+      - perf
+  - title: "🧪 Tests"
+    labels:
+      - test
+  - title: "🛠 Maintenance"
+    labels:
+      - chore
+      - build
+      - ci
