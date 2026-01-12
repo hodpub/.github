@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "emoji": "✨",
+      "label": "feature",
+      "release_category": "Feature"
+    },
+    {
+      "emoji": "🐛",
+      "label": "bug",
+      "release_category": "Bug Fixes"
+    },
+    {
+      "emoji": "📝",
+      "label": "documentation",
+      "release_category": "Documentation"
+    },
+    {
+      "emoji": "♻️",
+      "label": "refactor",
+      "release_category": "Refactors"
+    },
+    {
+      "emoji": "📦",
+      "label": "dependencies",
+      "release_category": "Dependencies"
+    },
+    {
+      "emoji": "⚡",
+      "label": "performance",
+      "release_category": "Performance"
+    },
+    {
+      "emoji": "🔧",
+      "label": "config",
+      "release_category": "Configuration"
+    },
+    {
+      "emoji": "🚀",
+      "label": "release",
+      "release_category": "Release"
+    },
+    {
+      "emoji": "🧪",
+      "label": "test"
+    },
+    {
+      "emoji": "🧹",
+      "label": "chore"
+    }
+  ]
+}
