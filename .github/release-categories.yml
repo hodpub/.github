@@ -25,3 +25,6 @@ categories:
       - chore
       - build
       - ci
+  - title: "🌐 Translations"
+    labels:
+      - translation

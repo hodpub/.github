@@ -2,7 +2,7 @@
   {
     "emoji": "✨",
     "label": "feature",
-    "release_category": "Feature"
+    "release_category": "Features"
   },
   {
     "emoji": "🐛",
@@ -46,5 +46,10 @@
   {
     "emoji": "🧹",
     "label": "chore"
+  },
+  {
+    "emoji": "🌐",
+    "label": "translation",
+    "release_category": "Translations"
   }
 ]
